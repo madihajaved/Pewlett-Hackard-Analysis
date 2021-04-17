@@ -28,7 +28,7 @@ To find the number of people retiring by title the following steps were taken:
 - Retiring employees were defined as those born between Jan 1, 1952 to Dec 31, 1955. 
 - To remove duplicate records of employees who had been promoted and therefore came in multiple rows with different titles, DISTINCT ON function was used using employee number as the unique key and keeping only their latest title by ordering the data on title to_date column on a descending basis. 
 - Based on this info, a new table was created which counted employees by title and sorted them based on employee number. The output is given below:
--  
+
 ![](https://github.com/madihajaved/Pewlett-Hackard-Analysis/blob/main/Employees_retiring_by_title.png)
  
 ### Deliverable 2
